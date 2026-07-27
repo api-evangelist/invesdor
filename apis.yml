@@ -1,7 +1,29 @@
 aid: invesdor
 name: Invesdor
-description: Invesdor is a company surfaced as a portfolio company of speedinvest and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Invesdor is a pan-European crowdinvesting and digital investment platform that
+  connects private and professional investors with companies raising capital
+  through equity, subordinated loans, and bonds, with minimum tickets starting
+  around EUR 250. Founded in Finland in 2012 and expanded through mergers with
+  Finnest, Kapilendo, and Oneplanetcrowd, Invesdor now serves more than 180,000
+  investors across Europe and has channeled over EUR 600 million into more than
+  1,000 renewable-energy, scale-up, and SME financing rounds. It operates as a
+  regulated investment firm under the EU Crowdfunding Service Provider (ECSP)
+  regime. Invesdor does not currently publish a public developer API or developer
+  portal; this profile tracks its public web, investor, and legal surface in the
+  API Evangelist network.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://live-credit.freetls.fastly.net/public/themes/invesdor-green/assets/share.png
 url: https://raw.githubusercontent.com/api-evangelist/invesdor/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +33,41 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Crowdfunding
+- Investment
+- Fintech
+- Crowdinvesting
+- Capital Markets
+- Renewable Energy
+- Europe
 apis: []
+common:
+- type: DomainSecurity
+  url: security/invesdor-domain-security.yml
+- type: Website
+  url: https://www.invesdor.com/
+- type: Support
+  url: https://faq.invesdor.com/
+- type: Blog
+  url: https://www.invesdor.com/blog
+- type: SignUp
+  url: https://www.invesdor.com/login
+- type: TermsOfService
+  url: https://www.invesdor.com/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://www.invesdor.com/data-privacy
+- type: LegalNotice
+  url: https://www.invesdor.com/legal-notice
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
